@@ -6,6 +6,23 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php 
+        $nama = 'Budi';
+        $umur = 30;
+        $sudahmenikah = false;
+
+        echo "nama saya $nama, umur saya $umur tahun";
+
+        if ($sudahmenikah == false) {
+            echo "Belum menikah";
+        } else {
+            echo "Sudah menikah"; 
+        }
+
+        for ($i=1; $i < 10; $i+=2) {
+            echo $i;
+        }
+    ?>
+
 </body>
 </html>
